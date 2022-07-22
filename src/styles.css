@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+}
+.app-container {
+  background-color: #355764;
+  width: 300px;
+  height: auto;
+  margin: 1em auto;
+  border-radius: 30px;
+  padding: 1em 0;
+}
+.temp-container {
+  display: table;
+  border: 2px solid white;
+
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  margin: 2em 4em;
+}
+.display-temp {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+.ac-control {
+  margin: 1em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  padding: 0 2.5em;
+  border: 0.2em solid white;
+  background-color: grey;
+  color: white;
+}
